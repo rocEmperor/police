@@ -1,0 +1,202 @@
+.search-result-img {
+  .ant-modal-body {
+    background-color: #3f95ff;
+  }
+  .ant-modal-close {
+    right: -10px;
+    top: -10px;
+    color: #ffffff;
+  }
+}
+.search-result {
+  padding: 0 50px;
+  //min-width: 1208px;
+  margin-left: 50px;
+  .menu {
+    position: fixed;
+    top: 84px;
+    left: 50px;
+    width: 100px;
+    text-align: center;
+    border-left: 4px solid #224C88;
+    padding: 20px 0;
+    span {
+      display: inline-block;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 4px;
+      position: relative;
+      &:hover {
+        color: #2094FF;
+        &::after {
+          background-color: #2094FF;
+        }
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        top: 11px;
+        left: -11px;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 3px solid rgba(0, 0, 0, 0.2);
+      }
+    }
+    .active {
+      color:  #2094FF;
+      &::after {
+        background-color: #2094FF;
+      }
+    }
+  }
+  .content {
+    margin-left: 100px;
+    .table-box {
+      margin-bottom: 20px;
+      .ant-table-thead {
+        th {
+          background-color: #224c88 !important;
+        }
+      }
+      .ant-table-tbody {
+        tr {
+          td {
+            padding: 10px 16px !important;
+          }
+        }
+      }
+      .table_header_res {
+        padding-top: 2px;
+        margin-bottom: 10px;
+        height: 50px;
+        border-radius: 4px;
+        .more_btn {
+          background-color: rgba(0, 0, 0, 0);
+          &:hover {
+            color: #40a9ff;
+          }
+        }
+        .til {
+          display: inline-block;
+          padding: 10px;
+          font-size: 14px;
+          font-weight: 600;
+          color: #ffffff;
+          margin-right: 5px;
+          vertical-align: -20px;
+        }
+        .operation-box  {
+          float: right;
+          margin-right: 10px;
+          margin-top: 7px;
+        }
+      }
+    }
+    .baseInfo {
+      margin: 20px 0;
+      .baseInfoItem {
+        height: 38rem;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer;
+        background: url("../../../static/images/bg-base-info.png") no-repeat;
+        background-size: 100% 100%;
+        color: #ffffff;
+        .container {
+          height: 8px;
+          background-color: #2096FF;
+          border-radius: 8px;
+          margin-top: 14.5rem;
+          position: relative;
+          margin-left: 50px;
+          margin-right: 50px;
+          font-size: 1rem;
+          .value {
+            padding-left: 5px;
+          }
+          .maxWidth {
+            max-width: 14rem;
+            white-space: normal;
+          }
+          .right-gap {
+            display: inline-block;
+            width: 50px;
+          }
+          .info {
+            position: absolute;
+          }
+          .info-top {
+            top: -6.3rem;
+            padding-left: 1.8rem;
+            .type {
+              margin-top: -1rem;
+            }
+            .line {
+              position: absolute;
+              left: 0;
+              top: 0;
+              padding-left: 1.8rem;
+              display: inline-block;
+              background: url("../../../static/images/branch-top.png") no-repeat;
+              background-size: 100% 100%;
+              height: 6.5rem;
+              width: 6rem;
+            }
+          }
+          .info-bottom {
+            top: 5px;
+            .line {
+              padding-left: 1.8rem;
+              display: inline-block;
+              background: url("../../../static/images/branch-bottom.png") no-repeat;
+              background-size: 100% 100%;
+              height: 6.5rem;
+              width: 6rem;
+            }
+            .value-pic {
+              display: inline-block;
+              height: 10rem;
+              width: 10rem;
+              border-radius: 50%;
+              border: 2px solid #2D8CEA;
+              margin-top: 6px;
+              background-size: 100% 100% !important;
+            }
+            .label-box {
+              display: inline-block;
+              width: 14rem;
+              white-space: normal;
+              margin-top: 8px;
+              .value-label {
+                display: inline-block;
+                padding: 6px 6px;
+                width: 6rem;
+                margin-right: 8px;
+                margin-bottom: 8px;
+                background: url("../../../static/images/bg-label.png") no-repeat;
+                background-size: 100% 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow:ellipsis;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.search-label-police {
+  .ant-tooltip-arrow {
+    border-top-color: #19327A;
+  }
+  .ant-tooltip-inner {
+    background-color: #19327A;
+  }
+}

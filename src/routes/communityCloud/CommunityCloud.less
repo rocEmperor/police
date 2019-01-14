@@ -1,0 +1,156 @@
+.communityCloud{
+  background: url("../../../static/images/cloudBg.png") no-repeat;
+  background-size: 100%;
+  padding: 1%;
+  color: #fff;
+  height: 100%;
+  .ownerType{
+    background: url("../../../static/images/ownerBj.png") no-repeat;
+    background-size: cover;
+    height: 47.5%;
+    .charts{
+      text-align: center;
+      margin-top: 150px;
+    }
+    .ownerTitle{
+      font-size: 1.5rem;
+      padding-left: 2rem;
+      padding-top: 1.15rem;
+    }
+    .ownerNum {
+      font-size: .8rem;
+      color: rgba(255,255,255,0.60);
+    }
+  }
+  .mapBlock{
+    margin-left: 3%;
+    margin-top: 3.5%;
+    height: 71.5%;
+    text-align: center;
+    background: rgba(17,33,77,0.10);
+    box-shadow: inset 0 0 35px 0 rgba(36,91,221,0.58);
+    .titleBlock{
+      position: relative;
+      z-index: 1;
+    }
+    .commName{
+      font-size: 3rem;
+      margin-top: -4.8rem;
+    }
+  }
+  .carBlock{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 20.5%;
+    .inCar,.visitorCar{
+      background: url("../../../static/images/carBj.png") no-repeat;
+      background-size: cover;
+      display: flex;
+      width: 50%;
+      text-align: center;
+      font-size: 1.2rem;
+      padding-left: 9%;
+      padding-top: 7%;
+    }
+    .inCar img,.visitorCar img{
+      width: 88px;
+      height: 88px;
+      margin-right: .8rem;
+    }
+    .visitorCar{
+      margin-left: 1rem;
+    }
+    .carNume{
+      font-size: 4rem;
+      font-weight: bold;
+    }
+  }
+  .rightBlock{
+    height: 100%;
+    .bj{
+      background: url("../../../static/images/parkBj.png") no-repeat;
+      background-size: cover;
+      margin-left: 3%;
+      height: 22.7%;
+      .air{
+        text-align: center;
+        margin: 62px 0;
+      }
+      .title{
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        margin-bottom: .8rem;
+        padding-top: 1.2rem;
+      }
+      .item{
+        font-size: .8rem;
+        padding: 0 .8rem;
+        height: 15%;
+        line-height: 15%;
+        .itemType{
+          background: #2094FF;
+          width: 45px;
+          line-height: 80%;
+          padding: .5rem 0;
+          display: inline-block;
+          text-align: center;
+        }
+        .battery{
+          background: #707DE5!important;
+        }
+        .color{
+          background: #45DAEC!important;
+        }
+        .orange{
+          background: #FFBF46!important;
+        }
+        .lightOrange{
+          background: #F28051!important;
+        }
+        span{
+          margin-right: .4rem;
+        }
+      }
+    }
+    .bjShow{
+      background: rgba(75,144,244,0.20);
+    }
+  }
+  .legend {
+    margin-top: 3%;
+    text-align: right;
+    padding-right: 46px;
+    .one, .two, .three {
+      font-size: 1rem;
+      color: #ffffff;
+      margin-left: 3%;
+      .icon {
+        display: inline-block;
+        margin-right: 2%;
+        height: 1rem;
+        width: 6%;
+        vertical-align: -2px;
+      }
+    }
+    .one {
+      .icon {
+        background: url("../../../static/images/electrombile.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .two {
+      .icon {
+        background: url("../../../static/images/cars-line.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .three {
+      .icon {
+        background: url("../../../static/images/peopel-line.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,116 @@
+.pictures{
+  clear: both;
+  overflow: hidden
+}
+.left-pictures{
+  width: 200px;
+  height: 100%;
+  float: left;
+  color: #fff;
+  background: #15233B;
+  ul{
+    line-height: 48px;
+    padding: 0;
+    overflow-y: scroll;
+    li{
+      list-style: none;
+      padding-left: 28px;
+      cursor: pointer;
+    }
+    .active{
+      background: -webkit-linear-gradient(left, rgba(32,148,255,1) , rgba(21,35,59,1)); /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(right, rgba(32,148,255,1), rgba(21,35,59,1)); /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(right, rgba(32,148,255,1), rgba(21,35,59,1)); /* Firefox 3.6 - 15 */
+      background: linear-gradient(to right, rgba(32,148,255,1) , rgba(21,35,59,1)); /* 标准的语法 */
+    }
+  }
+}
+.right-pictures{
+  width: auto;
+  margin-left: 200px;
+  height: 100%;
+  .tab{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    p{
+      float: left;
+      width: 194px;
+      line-height: 50px;
+      margin-bottom: 0;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      cursor: pointer;
+      img{
+        padding-right: 4px;
+      }
+    }
+    .tab1{
+      background:  rgba(56,95,156,0.2);
+
+    }
+    .tab1.active-tab{
+      background:  rgba(56,95,156,0.2) url("../../../static/images/active-tab.png") no-repeat top left;
+    }
+    .tab2{
+      background:  url("../../../static/images/communityPictureb1.png") no-repeat top left;
+    }
+    .tab2.active-tab{
+      background:  url("../../../static/images/communityPictureb3.png") no-repeat top left;
+    }
+  }
+  .main{
+    height: 100%;
+    background: rgba(56,95,156,0.2);
+    margin-left: 20px;
+    float: left;
+    width: 100%;
+    min-width: 1200px;
+  }
+  .ant-pagination-item a{
+    color: #fff;
+  }
+  ul.imgs{
+    margin-left: 20px;
+    height: 80%;
+    // background: rgba(56,95,156,0.2);
+    clear: both;
+    padding-left: 0;
+    max-width: 1250px;
+    li{
+      float: left;
+      width: 180px;
+      height: 240px;
+      padding-left: 40px;
+      // position: relative;
+      padding-top: 40px;
+      img{
+        width: 100%;
+        height: 160px;
+        border: 2px solid rgba(32,148,255,1);
+        border-bottom: 0;
+      }
+      div{
+        // position: absolute;
+        // bottom: 2px;
+        background: #2c65ae;
+        left: 42px;
+        width: 140px;
+        line-height: 25px;
+        height: 56px;
+        padding-left: 12px;
+        font-size: 14px;
+        padding-top: 4px;
+        color: #fff;
+        border: 2px solid #2094ff;
+        span{
+          display: inline-block;
+        }
+        span:last-child{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

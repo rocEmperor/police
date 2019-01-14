@@ -1,0 +1,102 @@
+.search-terrace-spin {
+  div {
+    .ant-spin {
+      max-height: 74%;
+    }
+  }
+}
+.ant-message {
+  z-index: 10000;
+}
+.search-terrace {
+  text-align: center;
+  min-width: 1208px;
+  .search {
+    display: inline-block;
+    width: 50%;
+    height: 60px;
+    margin-top: 12%;
+    margin-bottom: 11%;
+    position: relative;
+    .ipt_box {
+      height: 100%;
+      .camera {
+        position: absolute;
+        top: 20px;
+        right: 120px;
+        z-index: 1;
+        height: 22px;
+        width: 26px;
+        background: url("../../../static/images/search-camera.png") no-repeat;
+        background-size: 100% 100%;
+      }
+      .ant-input-lg{
+        padding: 6px 24px;
+      }
+    }
+    .ant-input {
+      background: url("../../../static/images/bg-search.png") no-repeat;
+      background-size: 100% 100%;
+      border: 0;
+      color: rgba(255,255,255,0.60);
+      box-shadow: none;
+    }
+    .ant-input-suffix {
+      height: 100%;
+    }
+    .ant-input-search-button {
+      height: 100%;
+      width: 108px;
+    }
+  }
+  .faceList {
+    margin: 0 20px;
+    height: 22%;
+    .trolleyId {
+      white-space: nowrap;
+      overflow-x: hidden;
+      height: 100%;
+      .imgItem {
+        width: 9.5%;
+        display: inline-block;
+        background-size: 100% 100% !important;
+        cursor: pointer;
+        box-sizing: border-box;
+        margin-right: 0.5%;
+        height: 96%;
+        position: relative;
+        &::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: '';
+          height: 100%;
+          width: 100%;
+          background: url("../../../static/images/photo_box_two.png") no-repeat;
+          background-size: 100% 100%;
+        }
+        .label {
+          position: absolute;
+          font-size: 1rem;
+          padding-top: 2%;
+          color: #FFFFFF;
+          height: 2.4rem;
+          text-align: left;
+          line-height: 1.9rem;
+          text-indent: 10%;
+          width: 62%;
+          left: 13%;
+          top: 77%;
+        }
+        .name {
+          background: url("../../../static/images/photo-name.png") no-repeat;
+          background-size: 100% 100%;
+        }
+        .stranger {
+          background: url("../../../static/images/photo-stranger.png") no-repeat;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+}

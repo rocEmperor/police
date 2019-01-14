@@ -1,0 +1,32 @@
+.ant-layout-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.ant-layout {
+  /* background: url("../../../static/images/bg-body.png") no-repeat; */
+  background: transparent;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  /*min-width: 1208px;*/
+}
+.content footer{
+  text-align: center;
+}
+
+/* footer{
+  height:6%;
+  text-align: center;
+  color:#999;
+  margin-top:15px;
+}
+footer p{
+	padding:6px 0;
+}
+footer p span{
+	margin:0 10px;
+}
+.content footer{
+  text-align: center;
+} */

@@ -1,0 +1,24 @@
+.header{
+  z-index: 999;
+  /* opacity: 0.24; */
+  height: 64px;
+  background: rgba(85,145,230,0.60);
+  box-shadow: 0 2px 12px 0 rgba(100,112,228,0.60), inset 0 -1px 17px 0 #2384DB;
+  color: #fff;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+  background-image: linear-gradient(-180deg, rgba(36,91,221,0.39) 0%, rgba(26,49,99,0.00) 100%);
+  background-color: transparent;
+}
+.ant-menu-horizontal > .ant-menu-item-selected > a,.ant-menu-horizontal > .ant-menu-item-selected:hover > a{
+  color: #2094FF;
+}
+.ant-layout-header{
+  padding: 0;
+}
+.userInfo{
+  float: right;
+  margin-left: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
